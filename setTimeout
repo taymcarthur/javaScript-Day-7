@@ -1,1 +1,28 @@
-setTimeout
+setTimeout -
+setInterval - runs every 1000 milisecs
+
+[METHOD NAMES]
+C - Create -> POST // 
+R - Read -> GET
+U - Update -> PUT/PATCH
+D - Delete -> DELETE
+
+$.ajax({
+	url: 'http://swapi.co/api.people/1',
+	type: 'get'
+	dataType: 'json',
+	data:{}
+
+}).done(function(data){
+	
+}).fail(function(err){
+	//this will send you an HTTP status code
+})
+
+status codes: 
+
+//200 OK
+//300 redirect
+//400 user error
+//404 not found
+//500 server error
