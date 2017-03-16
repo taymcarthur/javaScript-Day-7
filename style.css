@@ -1,0 +1,19 @@
+html {
+box-sizing:border-box;
+}
+*, *:before, *:after {
+box-sizing:inherit;
+}
+
+body {
+	background:pink;
+	font-family:Arial;
+	font-size:45px;
+}
+
+#clock {
+	width:100%;
+	margin-left:600px;
+	margin-right:600px;
+	margin-top:300px;
+}
